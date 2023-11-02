@@ -14,10 +14,20 @@
     display: none;
 }
 .poster{
-    max-height: 250px;
+    max-height: 200px;
     margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 .small-poster{
     max-height: 150px;
     margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.poster:hover{
+    transform: scale(1.04);
+}
+.small-poster:hover{
+    transform: scale(1.04);
 }
