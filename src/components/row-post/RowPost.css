@@ -1,6 +1,6 @@
 .row{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     color:#fff
 }
 .posters{
@@ -15,5 +15,9 @@
 }
 .poster{
     max-height: 250px;
-    margin-right: 10px ;
+    margin-right: 10px;
+}
+.small-poster{
+    max-height: 150px;
+    margin-right: 10px;
 }
