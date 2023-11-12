@@ -26,7 +26,6 @@ function Banner() {
                 <div className="row">
                 <div className="col-3">
                 <h1 className='description'>{movie?movie.overview:''}</h1>
-                <button className='btn btn-danger'>click me</button>
                 </div>
                 </div>
                 
