@@ -8,15 +8,19 @@
     padding:20px;
     background-color:#11111122;
 }
+.nav::selection{
+    background-color:#111111;
+}
 .logo{
     position:fixed;
-    width:80px;
+    width:93px;
     object-fit: contain;
-    left:10px
+    left:48px
 }
 .avtar{
     position:fixed;
     width:30px;
     object-fit: contain;
-    right:10px
+    right:10px;
+    border-radius: 5px;
 }

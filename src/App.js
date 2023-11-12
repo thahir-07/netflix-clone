@@ -2,10 +2,13 @@ import Banner from "./components/Banner/Banner";
 import Navbar from "./components/Navbar/Navbar";
 import RowPost from "./components/row-post/RowPost";
 import {trending, originals,action,horror,comedyMovies,romance,documentaries} from "./url";
+import {BrowserRouter as Router} from 'react-router-dom'
+import 'bootstrap/dist/css/bootstrap.css'
+//import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
   return (
-    <div>
+    <div >
     <Navbar/>
     <Banner/>
     
