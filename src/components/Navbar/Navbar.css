@@ -20,7 +20,17 @@
 .avtar{
     position:fixed;
     width:30px;
+    height: 30px;
     object-fit: contain;
-    right:10px;
+    right:70px;
     border-radius: 5px;
+}
+.dropdown{
+    position:fixed;
+    width:10px;
+    object-fit: contain;
+    left:1160px;
+    z-index: 10;
+    transition: transform 0.3s linear;
+    cursor: pointer;
 }
