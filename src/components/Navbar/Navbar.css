@@ -7,6 +7,7 @@
     top:0;
     padding:20px;
     background-color:#44373707;
+    background-image: linear-gradient(#44373707 );
     z-index: 5;
     transition: background-color 1s ease;
 }
@@ -18,19 +19,48 @@
     left:48px
 }
 .avtar{
-    position:fixed;
     width:30px;
     height: 30px;
     object-fit: contain;
-    right:70px;
     border-radius: 5px;
+    margin-right: 5px;
 }
 .dropdown{
     position:fixed;
-    width:10px;
+    width:8px;
     object-fit: contain;
-    left:1160px;
     z-index: 10;
     transition: transform 0.3s linear;
     cursor: pointer;
+}
+.nav-items{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    position: fixed;
+    left: 150px;
+}
+.nav-items li{
+    margin-right: 20px;
+    
+}
+li:hover{
+    color: #ffc107 !important;
+}
+.link{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+}
+.link:hover{
+    color:rgb(192, 192, 158)
+}
+.right-elements{
+    display: flex;
+    position: fixed;
+    right: 40px;
+}
+
+.right-elements .link,.search-icon,.bell{
+    margin-right:15px
 }

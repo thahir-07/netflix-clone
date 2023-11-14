@@ -28,9 +28,28 @@
     cursor: pointer;
     margin-right: 1rem;
 }
-.button:hover{
+.button-play{
     color: black;
     background-color: #e6e6e6;
+    outline: none;
+    border:none;
+    font-weight: 700;
+    border-radius: 5px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+   
+    cursor: pointer;
+    margin-right: 1rem;
+}
+.button-play:hover{
+    color: rgba(0, 0, 0, 0.789);
+    background-color: #e6e6e6c1;
+}
+.button:hover{
+    color:rgba(255, 255, 255, 0.552);
+    background-color: rgba(51, 51, 51, 0.391);
 }
 .description{
     width: 40rem;

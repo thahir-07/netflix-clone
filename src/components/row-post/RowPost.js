@@ -36,8 +36,9 @@ function RowPost(props) {
     
   }
   return (
+    <div className="container-fluid">
     <div className='row'>
-      <h2>{props.title}</h2>
+    <div style={{paddingLeft:'30px'}}>{props.title}</div>
       <div className="posters">
         {
           movies.map((movie, i) => {
@@ -47,6 +48,7 @@ function RowPost(props) {
         }
       </div>
       {urlId && <YouTube videoId={urlId} opts={opts} />}
+    </div>
     </div>
   )
 }

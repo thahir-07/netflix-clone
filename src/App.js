@@ -12,7 +12,7 @@ function App() {
     <Navbar/>
     <Banner/>
     
-    <RowPost title='Netflix Originals' url={originals}/>
+    <RowPost title='Netflix Originals' isSmall url={originals}/>
     <RowPost title='Action' isSmall url={action}/>
     <RowPost title='Horror' isSmall url={horror}/>
     <RowPost title='Trending' url={trending}/>
